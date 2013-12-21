@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="640px"
+    android:layout_height="360px"
+    android:padding="10px"
+    android:background="@color/background"
+    android:keepScreenOn="true"
+    tools:context=".SensorActivity">
+
+    <TextView android:layout_marginTop="0px"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/blue"
+        android:textStyle="bold"
+        android:textSize="35px"
+        android:text="Sensor Demo" />
+
+
+    <TextView android:id="@+id/looking_up_textView"
+        android:layout_marginTop="70px"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/light_blue"
+        android:textStyle="bold"
+        android:textSize="30px"
+        android:text="looking up" />
+
+    <TextView android:id="@+id/looking_straight_ahead_textView"
+        android:layout_marginTop="110px"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/light_blue"
+        android:textStyle="bold"
+        android:textSize="30px"
+        android:text="looking straight ahead" />
+
+    <TextView android:id="@+id/looking_down_textView"
+        android:layout_marginTop="150px"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/light_blue"
+        android:textStyle="bold"
+        android:textSize="30px"
+        android:text="looking down" />
+
+
+    <TextView android:id="@+id/head_cocked_left_textView"
+        android:layout_marginTop="210px"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/light_blue"
+        android:textStyle="bold"
+        android:textSize="30px"
+        android:text="head cocked left" />
+
+    <TextView android:id="@+id/head_upright_textView"
+        android:layout_marginTop="250px"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/light_blue"
+        android:textStyle="bold"
+        android:textSize="30px"
+        android:text="head upright" />
+
+    <TextView android:id="@+id/head_cocked_right_textView"
+        android:layout_marginTop="290px"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/light_blue"
+        android:textStyle="bold"
+        android:textSize="30px"
+        android:text="head cocked right" />
+
+
+    <TextView android:id="@+id/rotating_head_up_textView"
+        android:layout_marginLeft="320px"
+        android:layout_marginTop="70px"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/light_blue"
+        android:textStyle="bold"
+        android:textSize="30px"
+        android:text="rotating head up" />
+
+    <TextView android:id="@+id/rotating_head_down_textView"
+        android:layout_marginLeft="320px"
+        android:layout_marginTop="110px"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/light_blue"
+        android:textStyle="bold"
+        android:textSize="30px"
+        android:text="rotating head down" />
+
+
+    <TextView android:id="@+id/rotating_head_left_textView"
+        android:layout_marginLeft="320px"
+        android:layout_marginTop="170px"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/light_blue"
+        android:textStyle="bold"
+        android:textSize="30px"
+        android:text="rotating head left" />
+
+    <TextView android:id="@+id/rotating_head_right_textView"
+        android:layout_marginLeft="320px"
+        android:layout_marginTop="210px"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/light_blue"
+        android:textStyle="bold"
+        android:textSize="30px"
+        android:text="rotating head right" />
+
+
+    <TextView
+        android:layout_marginLeft="320px"
+        android:layout_marginTop="290px"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/blue"
+        android:textStyle="bold"
+        android:textSize="30px"
+        android:text="Light level:" />
+
+    <TextView android:id="@+id/light_level_textView"
+        android:layout_marginLeft="475px"
+        android:layout_marginTop="290px"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/blue"
+        android:textStyle="bold"
+        android:textSize="30px"
+        android:text="10 lux" />
+
+</RelativeLayout>

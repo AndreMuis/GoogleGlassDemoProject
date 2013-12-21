@@ -1,0 +1,45 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="640px"
+    android:layout_height="360px"
+    android:padding="10px"
+    android:background="@color/background"
+    android:keepScreenOn="true"
+    tools:context=".VoiceActivity">
+
+    <TextView android:layout_marginTop="0px"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/blue"
+        android:textStyle="bold"
+        android:textSize="35px"
+        android:text="Voice Recognition Demo" />
+
+    <TextView android:layout_marginTop="120px"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/blue"
+        android:textStyle="bold"
+        android:textSize="30px"
+        android:text="Tap touchpad to start" />
+
+    <TextView android:layout_marginTop="230px"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/blue"
+        android:textStyle="bold"
+        android:textSize="30px"
+        android:text="You said: " />
+
+    <TextView android:id="@+id/voice_textView"
+        android:layout_marginTop="230px"
+        android:layout_marginLeft="140px"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/blue"
+        android:textStyle="bold"
+        android:textSize="30px" />
+
+</RelativeLayout>

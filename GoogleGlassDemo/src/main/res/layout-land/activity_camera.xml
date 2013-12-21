@@ -1,0 +1,47 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="640px"
+    android:layout_height="360px"
+    android:padding="10px"
+    android:background="@color/background"
+    android:keepScreenOn="true"
+    tools:context=".GestureActivity">
+
+    <TextView
+        android:layout_marginTop="0px"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/blue"
+        android:textStyle="bold"
+        android:textSize="35px"
+        android:text="Camera Demo" />
+
+    <TextView android:id="@+id/tap_textView"
+        android:layout_marginTop="70px"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/blue"
+        android:textStyle="bold"
+        android:textSize="30px"
+        android:text="Tap touchpad to take picture" />
+
+    <ImageView android:id="@+id/picture_imageView"
+        android:layout_marginTop="140px"
+        android:layout_centerHorizontal="true"
+        android:layout_width="250px"
+        android:layout_height="184px" />
+
+    <TextView android:id="@+id/processing_textView"
+        android:layout_marginTop="210px"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/blue"
+        android:textStyle="bold"
+        android:textSize="30px"
+        android:text="Processing . . ." />
+
+</RelativeLayout>
+

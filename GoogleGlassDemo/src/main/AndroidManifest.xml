@@ -1,0 +1,51 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.andremuis.googleglassdemo"
+    android:versionCode="1"
+    android:versionName="1.0">
+
+    <uses-sdk android:minSdkVersion="15" android:targetSdkVersion="15" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_star"
+        android:label="@string/app_name"
+        android:theme="@style/GoogleGlassDemoTheme" >
+
+        <activity
+            android:name=".HomeActivity"
+            android:theme="@style/GoogleGlassDemoTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <action android:name="com.google.android.glass.action.VOICE_TRIGGER" />
+            </intent-filter>
+
+            <meta-data
+                android:name="com.google.android.glass.VoiceTrigger"
+                android:resource="@xml/voiceinput_googleglassdemo" />
+        </activity>
+
+        <activity
+            android:name=".GestureActivity"
+            android:theme="@style/GoogleGlassDemoTheme">
+        </activity>
+
+        <activity
+            android:name=".SensorActivity"
+            android:theme="@style/GoogleGlassDemoTheme">
+        </activity>
+
+        <activity
+            android:name=".CameraActivity"
+            android:theme="@style/GoogleGlassDemoTheme">
+        </activity>
+
+        <activity
+            android:name=".VoiceActivity"
+            android:theme="@style/GoogleGlassDemoTheme">
+        </activity>
+
+    </application>
+
+</manifest>

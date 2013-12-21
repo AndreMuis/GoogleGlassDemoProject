@@ -1,0 +1,140 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="640px"
+    android:layout_height="360px"
+    android:padding="10px"
+    android:background="@color/background"
+    android:keepScreenOn="true"
+    tools:context=".GestureActivity">
+
+    <TextView android:id="@+id/gesture_title_textView"
+        android:layout_marginTop="0px"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/blue"
+        android:textStyle="bold"
+        android:textSize="35px"
+        android:layout_centerHorizontal="true"
+        android:text="Gesture Demo" />
+
+
+    <TextView android:id="@+id/tap_textView"
+        android:layout_marginTop="70px"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/light_blue"
+        android:textStyle="bold"
+        android:textSize="30px"
+        android:text="tap" />
+
+    <TextView android:id="@+id/two_tap_textView"
+        android:layout_marginTop="110px"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/light_blue"
+        android:textStyle="bold"
+        android:textSize="30px"
+        android:text="two finger tap" />
+
+    <TextView android:id="@+id/three_tap_textView"
+        android:layout_marginTop="150px"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/light_blue"
+        android:textStyle="bold"
+        android:textSize="30px"
+        android:text="three finger tap" />
+
+
+    <TextView android:id="@+id/long_press_textView"
+        android:layout_marginTop="210px"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/light_blue"
+        android:textStyle="bold"
+        android:textSize="30px"
+        android:text="long press" />
+
+    <TextView android:id="@+id/two_long_press_textView"
+        android:layout_marginTop="250px"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/light_blue"
+        android:textStyle="bold"
+        android:textSize="30px"
+        android:text="two finger long press" />
+
+    <TextView android:id="@+id/three_long_press_textView"
+        android:layout_marginTop="290px"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/light_blue"
+        android:textStyle="bold"
+        android:textSize="30px"
+        android:text="three finger long press" />
+
+
+    <TextView android:id="@+id/swipe_left_textView"
+        android:layout_marginTop="60px"
+        android:layout_marginLeft="320px"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/light_blue"
+        android:textStyle="bold"
+        android:textSize="30px"
+        android:text="swipe left" />
+
+    <TextView android:id="@+id/two_swipe_left_textView"
+        android:layout_marginTop="100px"
+        android:layout_marginLeft="320px"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/light_blue"
+        android:textStyle="bold"
+        android:textSize="30px"
+        android:text="two finger swipe left" />
+
+
+    <TextView android:id="@+id/swipe_right_textView"
+        android:layout_marginTop="160px"
+        android:layout_marginLeft="320px"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/light_blue"
+        android:textStyle="bold"
+        android:textSize="30px"
+        android:text="swipe right" />
+
+    <TextView android:id="@+id/two_swipe_right_textView"
+        android:layout_marginTop="200px"
+        android:layout_marginLeft="320px"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/light_blue"
+        android:textStyle="bold"
+        android:textSize="30px"
+        android:text="two finger swipe right" />
+
+
+    <TextView android:id="@+id/swipe_up_textView"
+        android:layout_marginTop="260px"
+        android:layout_marginLeft="320px"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/light_blue"
+        android:textStyle="bold"
+        android:textSize="30px"
+        android:text="swipe up" />
+
+    <TextView android:id="@+id/two_swipe_up_textView"
+        android:layout_marginTop="300px"
+        android:layout_marginLeft="320px"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/light_blue"
+        android:textStyle="bold"
+        android:textSize="30px"
+        android:text="two finger swipe up" />
+
+</RelativeLayout>
+
